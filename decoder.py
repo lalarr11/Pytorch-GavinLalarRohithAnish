@@ -1,3 +1,4 @@
+//Decoder- part of Seq2Seq Model + Transformer Model also
 class Decoder(nn.Module):
     def __init__(self, output_dim, emb_dim, hidden_dim):
         super(Decoder, self).__init__()
