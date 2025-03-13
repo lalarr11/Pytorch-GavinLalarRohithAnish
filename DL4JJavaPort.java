@@ -1,3 +1,4 @@
+//Using DL4J to convert python to java for our machine learning model
 import org.deeplearning4j.nn.api.OptimizationAlgorithm;
 import org.deeplearning4j.nn.conf.MultiLayerConfiguration;
 import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
@@ -11,6 +12,7 @@ import org.nd4j.linalg.primitives.Pair;
 import java.util.HashMap;
 import java.util.Map;
 
+//Lalar & Gavin
 public class NMT_DL4J {
     
     // === STEP 1: DATA PREPROCESSING ===
@@ -86,6 +88,7 @@ public class NMT_DL4J {
     }
 
     // === MAIN FUNCTION TO RUN EVERYTHING ===
+    // Rohith & Anish
     public static void main(String[] args) {
         // Sample data
         String[] sourceSentences = {"hello how are you", "I love machine learning"};
